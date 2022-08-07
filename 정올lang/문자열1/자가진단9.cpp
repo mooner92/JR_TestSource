@@ -6,9 +6,9 @@ int main()
     scanf("%s", s);
     int p = strlen(s);
     strcat(s, s);
-    for (int j = strlen(s); j > p; j--)
+    for (int j = strlen(s); j >= p; j--)
     {
-        for (int i = p; i < j; i++)
+        for (int i = j - p; i < j; i++)
         {
             printf("%c", s[i]);
         }
