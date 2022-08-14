@@ -13,6 +13,8 @@ void ret(double q, double w, double e)
                : (w < e) ? w
                          : e;
     printf("%d ", floor(q));
+    
+
 }
 
 int main()
