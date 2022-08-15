@@ -12,7 +12,7 @@ int k[11] = {
     0,
 };
 
-void savecom()
+void savecom() //본문 풀이할 때는 저장하지 말고 일치하면 그냥 출력하고 return break해주기
 {
     int cnt = 0;
     for (int i = 0; i < n; i++)
