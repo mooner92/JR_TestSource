@@ -91,4 +91,4 @@ int main()
     {
         printf("%d ", ans[g][i]);
     }
-}
+} //
