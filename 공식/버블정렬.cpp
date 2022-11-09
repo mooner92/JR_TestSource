@@ -20,7 +20,7 @@ void bubble_sort(int list[], int n)
             }
         }
     }
-}///////
+}
 
 int main()
 {
