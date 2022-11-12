@@ -37,4 +37,4 @@ int main()
         printf("%d\n", list[i]);
     }
 }
-/////
+///////
